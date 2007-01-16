@@ -17,7 +17,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 This is a servlet-style web framework, similar to Webware, but both 
 more minimal and more convenient.
 
-%description
+%description -l pl
 Jest to narzêdzie do tworzenia serwletów (aplikacji) WSGI, podobne
 do Webware, jednak prostsze i bardziej wygodne.
 
