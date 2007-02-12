@@ -1,5 +1,5 @@
 Summary:	WSGI web framework based on Webware/WebKit's servlet model
-Summary(pl):	Szkielet aplikacji WWW WSGI oparty na modelu serwletowym Webware/WebKit
+Summary(pl.UTF-8):   Szkielet aplikacji WWW WSGI oparty na modelu serwletowym Webware/WebKit
 Name:		python-Wareweb
 Version:	0.1
 Release:	1
@@ -17,8 +17,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 This is a servlet-style web framework, similar to Webware, but both 
 more minimal and more convenient.
 
-%description -l pl
-Jest to narzêdzie do tworzenia serwletów (aplikacji) WSGI, podobne
+%description -l pl.UTF-8
+Jest to narzÄ™dzie do tworzenia serwletÃ³w (aplikacji) WSGI, podobne
 do Webware, jednak prostsze i bardziej wygodne.
 
 %prep
