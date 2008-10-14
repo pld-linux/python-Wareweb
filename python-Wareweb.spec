@@ -2,7 +2,7 @@ Summary:	WSGI web framework based on Webware/WebKit's servlet model
 Summary(pl.UTF-8):	Szkielet aplikacji WWW WSGI oparty na modelu serwletowym Webware/WebKit
 Name:		python-Wareweb
 Version:	0.1
-Release:	2
+Release:	3
 Group:		Development/Languages/Python
 License:	X11/MIT
 Source0:	http://cheeseshop.python.org/packages/source/W/Wareweb/Wareweb-%{version}.tar.gz
