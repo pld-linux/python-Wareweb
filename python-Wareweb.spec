@@ -3,23 +3,26 @@ Summary(pl.UTF-8):	Szkielet aplikacji WWW WSGI oparty na modelu serwletowym Webw
 Name:		python-Wareweb
 Version:	0.3
 Release:	3
-Group:		Development/Languages/Python
 License:	X11/MIT
+Group:		Development/Languages/Python
 Source0:	http://cheeseshop.python.org/packages/source/W/Wareweb/Wareweb-%{version}.tar.gz
 # Source0-md5:	2f12a625120cb199f0f86d9449829551
 URL:		http://pythonpaste.org/
 BuildRequires:	python-devel
+BuildRequires:	python-modules
+BuildRequires:	python-setuptools
+BuildRequires:	rpm-pythonprov
 %pyrequires_eq  python-modules
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-This is a servlet-style web framework, similar to Webware, but both 
+This is a servlet-style web framework, similar to Webware, but both
 more minimal and more convenient.
 
 %description -l pl.UTF-8
-Jest to narzędzie do tworzenia serwletów (aplikacji) WSGI, podobne
-do Webware, jednak prostsze i bardziej wygodne.
+Jest to narzędzie do tworzenia serwletów (aplikacji) WSGI, podobne do
+Webware, jednak prostsze i bardziej wygodne.
 
 %prep
 %setup -q -n Wareweb-%{version}
