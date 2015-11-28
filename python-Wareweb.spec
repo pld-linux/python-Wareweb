@@ -28,11 +28,11 @@ Webware, jednak prostsze i bardziej wygodne.
 %setup -q -n Wareweb-%{version}
 
 %build
-python setup.py build
+%py_build
 
 %install
 rm -rf $RPM_BUILD_ROOT
-python setup.py install \
+%py_install \
 	--single-version-externally-managed \
 	--optimize=2 \
 	--root=$RPM_BUILD_ROOT
