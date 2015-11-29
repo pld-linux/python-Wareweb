@@ -8,6 +8,7 @@ Group:		Development/Languages/Python
 Source0:	http://cheeseshop.python.org/packages/source/W/Wareweb/Wareweb-%{version}.tar.gz
 # Source0-md5:	2f12a625120cb199f0f86d9449829551
 URL:		http://pythonpaste.org/
+BuildRequires:	rpmbuild(macros) >= 1.710
 BuildRequires:	python-devel
 BuildRequires:	python-modules
 BuildRequires:	python-setuptools
